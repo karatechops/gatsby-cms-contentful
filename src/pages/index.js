@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Hero from "../components/hero"
 import { rhythm } from "../utils/typography"
 
 class Home extends React.Component {
@@ -14,7 +15,11 @@ class Home extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title={title} />
-        {title}
+        <Hero
+          bg={heroBg}
+          title={title}
+          desc={intro}
+        />
       </Layout>
     )
   }
