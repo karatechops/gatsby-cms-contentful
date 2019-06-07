@@ -1,14 +1,17 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: `Kyle Mathews`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    title: `My Product Page`,
+    author: `Company name`,
+    description: `A cool tagline.`,
+    siteUrl: `https://focused-wright-c815d2.netlify.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `lazersalex`,
     },
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-styled-components`
+    },
     {
       resolve: `gatsby-plugin-netlify-cms`,
     },

@@ -10,7 +10,7 @@ class Home extends React.Component {
     const { data } = this.props
     const { title, intro, heroBg, videos } = data.markdownRemark.frontmatter;
     const siteTitle = data.site.siteMetadata.title
-    console.log(this.props);
+
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title={title} />
