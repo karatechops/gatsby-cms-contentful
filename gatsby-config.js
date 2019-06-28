@@ -3,7 +3,7 @@ module.exports = {
     title: 'My Product Page',
     author: 'Company name',
     description: 'A cool tagline.',
-    siteUrl: 'https://focused-wright-c815d2.netlify.com/',
+    siteUrl: 'https://gatsby-grommet-cms.netlify.com/',
     social: {
       twitter: 'lazersalex',
     },

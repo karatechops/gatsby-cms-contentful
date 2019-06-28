@@ -95,7 +95,7 @@ class Home extends React.Component {
           <Box pad="xlarge" align="center">
             <Heading textAlign="center" size="large" margin="none">Get Started Today</Heading>
             <Text textAlign="center" weight="100" size="xlarge">
-              Photo booth marfa dreamcatcher direct trade lyft.
+              Photo booth marvel dreamcatcher direct trade lyft.
             </Text>
             <Box direction="row">
               <Button margin="medium" label="Sign Up" />
