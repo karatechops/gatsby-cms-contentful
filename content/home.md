@@ -1,5 +1,5 @@
 ---
-title: Our Newest Product
+title: Our Coolest Product
 intro: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra sodales
   urna, eget finibus orci rutrum non. Vivamus blandit, erat vel condimentum
@@ -13,3 +13,4 @@ videos:
     title: Take A Closer Look
     url: 'https://www.youtube.com/watch?v=HwdCqHSOWUE'
 ---
+
