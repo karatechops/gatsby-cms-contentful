@@ -2,7 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import { Box, Heading, Text } from 'grommet';
-import { CloudUpload, Services, ServerCluster } from 'grommet-icons';
+import {
+  CloudUpload, Services, ServerCluster, CirclePlay,
+} from 'grommet-icons';
 
 import Content from '../components/content';
 import Layout from '../components/layout';
@@ -13,10 +15,10 @@ class Home extends React.Component {
   render() {
     const { data } = this.props;
     const {
-      title, intro, heroBg,
+      title, intro, heroBg, videos,
     } = data.markdownRemark.frontmatter;
     const siteTitle = data.site.siteMetadata.title;
-
+    console.log(videos);
     return (
       <Layout title={siteTitle}>
         <SEO title={title} />
@@ -47,6 +49,31 @@ class Home extends React.Component {
               Biodiesel hashtag palo santo unicorn synth vinyl af raw denim kitsch ugh shoreditch quinoa la croix bespoke.
             </Text>
           </Box>
+        </Content>
+        <Content direction="row-responsive" gap="small" pad={{ bottom: 'xlarge' }}>
+          {videos.map(({ photo, title: vidTitle }, index) =>
+            <Box
+              key={`video-${index}`}
+              basis="50%"
+              background={`url(${photo}) #333`}
+              height="medium"
+              align="center"
+              justify="center"
+              border={{
+                side: 'all',
+                color: 'brand',
+                size: 'small',
+              }}
+            >
+              <Box flex align="center" justify="center">
+                <CirclePlay size="xlarge" color="light-1" />
+              </Box>
+              <Box pad="small" width="100%" background="rgba(0,0,0,0.5)">
+                <Heading textAlign="center" margin="none" color="light-1" size="small">
+                  {vidTitle}
+                </Heading>
+              </Box>
+            </Box>)}
         </Content>
       </Layout>
     );

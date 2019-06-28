@@ -8,8 +8,10 @@ intro: >-
   pharetra tortor.
 heroBg: /img/joe-gardner-98180-unsplash.jpg
 videos:
-  - photo: /img/video-thumb.png
-    title: Test Video
+  - photo: /img/video-thumb-01.jpg
+    title: Learn About Things
+    url: 'https://www.youtube.com/watch?v=HwdCqHSOWUE'
+  - photo: /img/video-thumb-02.jpg
+    title: Take A Closer Look
     url: 'https://www.youtube.com/watch?v=HwdCqHSOWUE'
 ---
-
