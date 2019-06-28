@@ -15,9 +15,6 @@ const theme = deepMerge({
   paragraph: {
     extend: css`font-weight: 100;`,
   },
-  text: {
-    extend: css`font-weight: 100;`,
-  },
 }, grommet);
 
 class Layout extends React.Component {

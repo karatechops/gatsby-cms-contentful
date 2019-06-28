@@ -13,8 +13,8 @@ export const Hero = ({ title, desc, bg }) =>
         {desc}
       </Text>
       <Box direction="row" gap="small">
-        <Button primary color="brand" label={<Text>Learn more</Text>} />
-        <Button color="brand" label={<Text color="light-1">Login</Text>} onClick={() => {}} />
+        <Button primary color="brand" label={<Text weight="bold">Learn more</Text>} />
+        <Button color="brand" label={<Text color="light-1" weight="bold">Login</Text>} onClick={() => {}} />
       </Box>
     </Box>
   </Box>;

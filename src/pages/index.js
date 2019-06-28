@@ -1,7 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
-import { Box, Heading, Text } from 'grommet';
+import {
+  Box, Heading, Text, Form, FormField, TextInput, Button,
+} from 'grommet';
 import {
   CloudUpload, Services, ServerCluster, CirclePlay,
 } from 'grommet-icons';
@@ -27,6 +29,9 @@ class Home extends React.Component {
           title={title}
           desc={intro}
         />
+        <Content pad={{ top: 'xlarge' }} align="center">
+          <Heading size="large" margin="none">An Amazing Cloud Experience</Heading>
+        </Content>
         <Content direction="row-responsive" pad={{ vertical: 'xlarge' }}>
           <Box align="center" basis="1/3" gap="medium" pad={{ right: 'small' }}>
             <Box round="full" pad="medium" background="brand">
@@ -56,30 +61,56 @@ class Home extends React.Component {
             </Text>
           </Box>
         </Content>
-        <Content direction="row-responsive" gap="small" pad={{ bottom: 'xlarge' }}>
-          {videos.map(({ photo, title: vidTitle }, index) =>
-            <Box
-              key={`video-${index}`}
-              basis="50%"
-              background={`url(${photo}) #333`}
-              height="medium"
-              align="center"
-              justify="center"
-              border={{
-                side: 'all',
-                color: 'brand',
-                size: 'small',
-              }}
-            >
-              <Box flex align="center" justify="center">
-                <CirclePlay size="xlarge" color="light-1" />
-              </Box>
-              <Box pad="small" width="100%" background="rgba(0,0,0,0.5)">
-                <Heading textAlign="center" margin="none" color="light-1" size="small">
-                  {vidTitle}
-                </Heading>
-              </Box>
-            </Box>)}
+        <Box background="light-2">
+          <Content pad={{ vertical: 'xlarge' }} align="center">
+            <Heading size="large" margin="none">Learn More with Videos</Heading>
+          </Content>
+          <Content direction="row-responsive" gap="small" pad={{ bottom: 'xlarge' }}>
+            {videos.map(({ photo, title: vidTitle }, index) =>
+              <Box
+                key={`video-${index}`}
+                basis="50%"
+                background={`url(${photo}) #333`}
+                height="medium"
+                align="center"
+                justify="center"
+                border={{
+                  side: 'all',
+                  color: 'brand',
+                  size: 'small',
+                }}
+              >
+                <Box flex align="center" justify="center">
+                  <CirclePlay size="xlarge" color="light-1" />
+                </Box>
+                <Box pad="small" width="100%" background="rgba(0,0,0,0.4)">
+                  <Text textAlign="center" color="light-1" size="large" weight="300">
+                    {vidTitle}
+                  </Text>
+                </Box>
+              </Box>)}
+          </Content>
+        </Box>
+        <Content align="center">
+          <Box pad="xlarge" align="center">
+            <Heading textAlign="center" size="large" margin="none">Get Started Today</Heading>
+            <Text textAlign="center" weight="100" size="xlarge">
+              Photo booth marfa dreamcatcher direct trade lyft.
+            </Text>
+            <Box direction="row">
+              <Button margin="medium" label="Sign Up" />
+            </Box>
+          </Box>
+          {/* <Box width="medium" round="small" background="light-1" pad="medium">
+            <Form>
+              <FormField label="Email Address">
+                <TextInput
+                  label="Email Address"
+                />
+              </FormField>
+              <Button margin="medium" label="submit" />
+            </Form>
+            </Box> */}
         </Content>
       </Layout>
     );
