@@ -18,7 +18,7 @@ class Home extends React.Component {
       title, intro, heroBg, videos,
     } = data.markdownRemark.frontmatter;
     const siteTitle = data.site.siteMetadata.title;
-    console.log(videos);
+
     return (
       <Layout title={siteTitle}>
         <SEO title={title} />
@@ -29,22 +29,28 @@ class Home extends React.Component {
         />
         <Content direction="row-responsive" pad={{ vertical: 'xlarge' }}>
           <Box align="center" basis="1/3" gap="medium" pad={{ right: 'small' }}>
-            <CloudUpload size="large" color="dark-1" />
-            <Heading margin="none" textAlign="center">column 1</Heading>
+            <Box round="full" pad="medium" background="brand">
+              <CloudUpload size="large" color="light-1" />
+            </Box>
+            <Heading margin="none" textAlign="center">Persistance</Heading>
             <Text textAlign="center">
               Activated charcoal chambray, hoodie mlkshk glossier church-key green juice air plant letterpress shaman banjo keytar kinfolk.
             </Text>
           </Box>
           <Box align="center" basis="1/3" gap="medium" pad={{ horizontal: 'small' }}>
-            <ServerCluster size="large" color="dark-1" />
-            <Heading margin="none" textAlign="center">column 2</Heading>
+            <Box round="full" pad="medium" background="brand">
+              <ServerCluster size="large" color="light-1" />
+            </Box>
+            <Heading margin="none" textAlign="center">Reliability</Heading>
             <Text textAlign="center">
               Flannel austin ethical, fanny pack ugh photo booth marfa dreamcatcher direct trade lyft.
             </Text>
           </Box>
           <Box align="center" basis="1/3" gap="medium" pad={{ left: 'small' }}>
-            <Services size="large" color="dark-1" />
-            <Heading margin="none" textAlign="center">column 3</Heading>
+            <Box round="full" pad="medium" background="brand">
+              <Services size="large" color="light-1" />
+            </Box>
+            <Heading margin="none" textAlign="center">Cloud Backup</Heading>
             <Text textAlign="center">
               Biodiesel hashtag palo santo unicorn synth vinyl af raw denim kitsch ugh shoreditch quinoa la croix bespoke.
             </Text>

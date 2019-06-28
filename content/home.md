@@ -1,11 +1,9 @@
 ---
-title: My Product Name
+title: Our Newest Product
 intro: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra sodales
   urna, eget finibus orci rutrum non. Vivamus blandit, erat vel condimentum
-  dapibus, odio magna imperdiet sem, vel molestie dolor nulla ut est. Cras
-  mauris erat, interdum id lobortis non, porttitor ac leo. Pellentesque ac
-  pharetra tortor.
+  dapibus.
 heroBg: /img/joe-gardner-98180-unsplash.jpg
 videos:
   - photo: /img/video-thumb-01.jpg

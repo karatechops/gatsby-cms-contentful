@@ -1,19 +1,33 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import {
-  grommet, Anchor, Grommet, Box,
+  grommet, Anchor, Grommet, Box, Text,
 } from 'grommet';
+import { deepMerge } from 'grommet/utils';
+import { css } from 'styled-components';
 
 import Content from './content';
 
+const theme = deepMerge({
+  heading: {
+    extend: css`font-weight: 100;`,
+  },
+  paragraph: {
+    extend: css`font-weight: 100;`,
+  },
+  text: {
+    extend: css`font-weight: 100;`,
+  },
+}, grommet);
+
 class Layout extends React.Component {
   render() {
-    const { title, children } = this.props;
+    const { /* title, */ children } = this.props;
 
     return (
       <Grommet
         full
-        theme={grommet}
+        theme={theme}
         style={{
           display: 'flex',
           flexDirection: 'column',
@@ -22,17 +36,21 @@ class Layout extends React.Component {
           height: 'auto',
         }}
       >
-        <Box as="header" background="brand" pad={{ horizontal: 'large', vertical: 'small' }}>
-          {title}
-        </Box>
+        {/*
+          <Box as="header" background="black" pad={{ horizontal: 'large', vertical: 'small' }}>
+            {title}
+          </Box>
+        */}
         <Box flex as="main">
           {children}
         </Box>
-        <Box as="footer" background="light-2" pad={{ vertical: 'medium' }}>
+        <Box as="footer" background="dark-1" pad={{ vertical: 'medium' }}>
           <Content direction="row" justify="center">
-            © {new Date().getFullYear()}, Built with
-            {' '}
-            <Anchor href="https://grommet.io"><span role="img" aria-label="love">💜</span></Anchor>
+            <Text>
+              © {new Date().getFullYear()}, Built with
+              {' '}
+              <Anchor href="https://grommet.io"><span role="img" aria-label="love">💜</span></Anchor>
+            </Text>
           </Content>
         </Box>
       </Grommet>
@@ -42,7 +60,7 @@ class Layout extends React.Component {
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-  title: PropTypes.string.isRequired,
+  // title: PropTypes.string.isRequired,
 };
 
 export default Layout;
