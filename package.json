@@ -1,11 +1,10 @@
 {
-  "name": "gatsby-starter-blog",
-  "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "name": "gatsby-cms",
+  "description": "A starter for a landing page powered by Gatsby, Grommet, and Markdown",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Alex Mejias",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/karatechops/gatsby-cms/issues"
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
@@ -43,7 +42,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.14.2"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://github.com/karatechops/gatsby-cms/blob/master/README.md",
   "keywords": [
     "gatsby"
   ],
@@ -51,7 +50,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/karatechops/gatsby-cms.git"
   },
   "scripts": {
     "build": "gatsby build",
