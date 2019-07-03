@@ -1,21 +1,26 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {
-  grommet, Anchor, Grommet, Box, Text,
-} from 'grommet';
+import { grommet, Anchor, Grommet, Box, Text } from 'grommet';
 import { deepMerge } from 'grommet/utils';
 import { css } from 'styled-components';
 
 import Content from './content';
 
-const theme = deepMerge({
-  heading: {
-    extend: css`font-weight: 100;`,
+const theme = deepMerge(
+  {
+    heading: {
+      extend: css`
+        font-weight: 100;
+      `,
+    },
+    paragraph: {
+      extend: css`
+        font-weight: 100;
+      `,
+    },
   },
-  paragraph: {
-    extend: css`font-weight: 100;`,
-  },
-}, grommet);
+  grommet,
+);
 
 class Layout extends React.Component {
   render() {
@@ -44,9 +49,12 @@ class Layout extends React.Component {
         <Box as="footer" background="dark-1" pad={{ vertical: 'medium' }}>
           <Content direction="row" justify="center">
             <Text>
-              © {new Date().getFullYear()}, Built with
-              {' '}
-              <Anchor href="https://grommet.io"><span role="img" aria-label="love">💜</span></Anchor>
+              © {new Date().getFullYear()}, Built with{' '}
+              <Anchor href="https://grommet.io">
+                <span role="img" aria-label="love">
+                  💜
+                </span>
+              </Anchor>
             </Text>
           </Content>
         </Box>

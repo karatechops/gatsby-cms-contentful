@@ -1,26 +1,26 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { graphql } from "gatsby";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { graphql } from 'gatsby';
 import {
   Box,
   Heading,
   Text,
-  Form,
+  /* Form,
   FormField,
-  TextInput,
-  Button
-} from "grommet";
+  TextInput, */
+  Button,
+} from 'grommet';
 import {
   CloudUpload,
   Services,
   ServerCluster,
-  CirclePlay
-} from "grommet-icons";
+  CirclePlay,
+} from 'grommet-icons';
 
-import Content from "../components/content";
-import Layout from "../components/layout";
-import SEO from "../components/seo";
-import Hero from "../components/hero";
+import Content from '../components/content';
+import Layout from '../components/layout';
+import SEO from '../components/seo';
+import Hero from '../components/hero';
 
 class Home extends React.Component {
   render() {
@@ -32,13 +32,13 @@ class Home extends React.Component {
       <Layout title={siteTitle}>
         <SEO title={title} />
         <Hero bg={heroBg} title={title} desc={intro} />
-        <Content pad={{ top: "xlarge" }} align="center">
+        <Content pad={{ top: 'xlarge' }} align="center">
           <Heading size="large" margin="none">
             An Amazing Cloud Experience
           </Heading>
         </Content>
-        <Content direction="row-responsive" pad={{ vertical: "xlarge" }}>
-          <Box align="center" basis="1/3" gap="medium" pad={{ right: "small" }}>
+        <Content direction="row-responsive" pad={{ vertical: 'xlarge' }}>
+          <Box align="center" basis="1/3" gap="medium" pad={{ right: 'small' }}>
             <Box round="full" pad="medium" background="brand">
               <CloudUpload size="large" color="light-1" />
             </Box>
@@ -54,7 +54,7 @@ class Home extends React.Component {
             align="center"
             basis="1/3"
             gap="medium"
-            pad={{ horizontal: "small" }}
+            pad={{ horizontal: 'small' }}
           >
             <Box round="full" pad="medium" background="brand">
               <ServerCluster size="large" color="light-1" />
@@ -67,7 +67,7 @@ class Home extends React.Component {
               dreamcatcher direct trade lyft.
             </Text>
           </Box>
-          <Box align="center" basis="1/3" gap="medium" pad={{ left: "small" }}>
+          <Box align="center" basis="1/3" gap="medium" pad={{ left: 'small' }}>
             <Box round="full" pad="medium" background="brand">
               <Services size="large" color="light-1" />
             </Box>
@@ -81,7 +81,7 @@ class Home extends React.Component {
           </Box>
         </Content>
         <Box background="light-2">
-          <Content pad={{ vertical: "xlarge" }} align="center">
+          <Content pad={{ vertical: 'xlarge' }} align="center">
             <Heading size="large" margin="none">
               Learn More with Videos
             </Heading>
@@ -89,7 +89,7 @@ class Home extends React.Component {
           <Content
             direction="row-responsive"
             gap="small"
-            pad={{ bottom: "xlarge" }}
+            pad={{ bottom: 'xlarge' }}
           >
             {videos.map(({ photo, title: vidTitle }, index) => (
               <Box
@@ -100,9 +100,9 @@ class Home extends React.Component {
                 align="center"
                 justify="center"
                 border={{
-                  side: "all",
-                  color: "brand",
-                  size: "small"
+                  side: 'all',
+                  color: 'brand',
+                  size: 'small',
                 }}
               >
                 <Box flex align="center" justify="center">
@@ -154,8 +154,8 @@ Home.propTypes = {
   data: PropTypes.shape({
     site: PropTypes.shape({
       siteMetadata: PropTypes.shape({
-        title: PropTypes.string.isRequired
-      }).isRequired
+        title: PropTypes.string.isRequired,
+      }).isRequired,
     }).isRequired,
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.shape({
@@ -166,12 +166,12 @@ Home.propTypes = {
           PropTypes.shape({
             title: PropTypes.string,
             url: PropTypes.string,
-            photo: PropTypes.string
-          })
-        )
-      }).isRequired
-    }).isRequired
-  }).isRequired
+            photo: PropTypes.string,
+          }),
+        ),
+      }).isRequired,
+    }).isRequired,
+  }).isRequired,
 };
 
 export default Home;

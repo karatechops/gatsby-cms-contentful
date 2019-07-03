@@ -2,12 +2,16 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Box } from 'grommet';
 
-export const Content = ({
-  children, pad, width, ...rest
-}) =>
-  <Box width={width || 'xxlarge'} alignSelf="center" pad={{ horizontal: 'medium', ...pad }} {...rest}>
+export const Content = ({ children, pad, width, ...rest }) => (
+  <Box
+    width={width || 'xxlarge'}
+    alignSelf="center"
+    pad={{ horizontal: 'medium', ...pad }}
+    {...rest}
+  >
     {children}
-  </Box>;
+  </Box>
+);
 
 Content.propTypes = {
   children: PropTypes.node.isRequired,
