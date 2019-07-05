@@ -1,8 +1,29 @@
 import React from 'react';
+import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
-import { Heading, Paragraph } from 'grommet';
-import { Layout, SEO } from '../components';
+import { Box, Heading, Text, Markdown, Paragraph } from 'grommet';
+import { Content, Layout, SEO } from '../components';
+
+const components = {
+  p: {
+    component: Paragraph,
+    props: {
+      style: {
+        maxWidth: '100%',
+      },
+    },
+  },
+};
+
+// Remove padding or margin from first markdown element.
+// This allows the heading and content to have the same gap.
+const MarkdownLayout = styled(Markdown)`
+  & > *:first-child {
+    margin-top: 0;
+    padding-top: 0;
+  }
+`;
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -15,9 +36,19 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <Heading>{post.frontmatter.title}</Heading>
-        <Paragraph>{post.frontmatter.date}</Paragraph>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <Box background="brand">
+          <Content margin={{ vertical: 'large' }}>
+            <Heading size="xlarge" margin="none" style={{ lineHeight: 1 }}>
+              {post.frontmatter.title}
+            </Heading>
+            <Text weight={100}>{post.frontmatter.date}</Text>
+          </Content>
+        </Box>
+        <Content margin={{ vertical: 'large' }}>
+          <MarkdownLayout components={components}>
+            {post.rawMarkdownBody}
+          </MarkdownLayout>
+        </Content>
       </Layout>
     );
   }
@@ -31,6 +62,7 @@ BlogPostTemplate.propTypes = {
       }).isRequired,
     }).isRequired,
     markdownRemark: PropTypes.shape({
+      rawMarkdownBody: PropTypes.string.isRequired,
       excerpt: PropTypes.string,
       html: PropTypes.string.isRequired,
       frontmatter: PropTypes.shape({
@@ -56,6 +88,7 @@ export const pageQuery = graphql`
       id
       excerpt(pruneLength: 160)
       html
+      rawMarkdownBody
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
