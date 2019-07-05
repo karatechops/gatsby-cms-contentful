@@ -16,11 +16,12 @@ const components = {
     },
   },
   img: {
-    component: props => (
-      <Box width="large">
-        <Image {...props} />
-      </Box>
-    ),
+    component: Image,
+    props: {
+      style: {
+        maxWidth: '820px',
+      },
+    },
   },
 };
 

@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import { Box, Heading, Paragraph } from 'grommet';
-
 import { Layout, SEO } from '../../components';
 
 class NotFoundPage extends React.Component {

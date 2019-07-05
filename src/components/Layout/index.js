@@ -25,7 +25,7 @@ const theme = deepMerge(
 
 class Layout extends React.Component {
   render() {
-    const { /* title, */ children } = this.props;
+    const { children } = this.props;
 
     return (
       <Grommet
