@@ -3,7 +3,8 @@
   "extends": ["airbnb", "prettier", "prettier/react"],
   "plugins": ["react", "prettier"],
   "env": {
-    "browser": true
+    "browser": true,
+    "jest": true
   },
   "globals": {
     "it": true,
