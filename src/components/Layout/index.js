@@ -39,11 +39,6 @@ class Layout extends React.Component {
           height: 'auto',
         }}
       >
-        {/*
-          <Box as="header" background="black" pad={{ horizontal: 'large', vertical: 'small' }}>
-            {title}
-          </Box>
-        */}
         <Box flex as="main">
           {children}
         </Box>
@@ -66,7 +61,6 @@ class Layout extends React.Component {
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-  // title: PropTypes.string.isRequired,
 };
 
 export default Layout;
