@@ -3,6 +3,7 @@ import renderer from 'react-test-renderer';
 import { useStaticQuery } from 'gatsby';
 import NotFoundPage from '../index';
 
+// Data for SEO component
 beforeEach(() => {
   useStaticQuery.mockReturnValueOnce({
     site: {

@@ -16,6 +16,7 @@ import Hero from '../../components/Hero';
 
 class Home extends React.Component {
   render() {
+    console.log(this.props);
     const { data } = this.props;
     const { title, intro, heroBg, videos } = data.markdownRemark.frontmatter;
     const siteTitle = data.site.siteMetadata.title;
@@ -105,7 +106,7 @@ class Home extends React.Component {
                     textAlign="center"
                     color="light-1"
                     size="large"
-                    weight="300"
+                    weight={300}
                   >
                     {vidTitle}
                   </Text>
@@ -119,7 +120,7 @@ class Home extends React.Component {
             <Heading textAlign="center" size="large" margin="none">
               Get Started Today
             </Heading>
-            <Text textAlign="center" weight="100" size="xlarge">
+            <Text textAlign="center" weight={100} size="xlarge">
               Photo booth marvel dreamcatcher direct trade lyft.
             </Text>
             <Box direction="row">
