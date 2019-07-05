@@ -9,10 +9,10 @@ import {
   CirclePlay,
 } from 'grommet-icons';
 
-import Content from '../components/Content';
-import Layout from '../components/Layout';
-import SEO from '../components/Seo';
-import Hero from '../components/Hero';
+import Content from '../../components/Content';
+import Layout from '../../components/Layout';
+import SEO from '../../components/Seo';
+import Hero from '../../components/Hero';
 
 class Home extends React.Component {
   render() {

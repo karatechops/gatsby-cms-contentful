@@ -25,7 +25,7 @@ exports.createPages = ({ graphql, actions }) => {
         }
       }
     `,
-  ).then((result) => {
+  ).then(result => {
     if (result.errors) {
       throw result.errors;
     }
@@ -34,7 +34,8 @@ exports.createPages = ({ graphql, actions }) => {
     const posts = result.data.allMarkdownRemark.edges;
 
     posts.forEach((post, index) => {
-      const previous = index === posts.length - 1 ? null : posts[index + 1].node;
+      const previous =
+        index === posts.length - 1 ? null : posts[index + 1].node;
       const next = index === 0 ? null : posts[index - 1].node;
 
       createPage({
@@ -49,6 +50,25 @@ exports.createPages = ({ graphql, actions }) => {
     });
 
     return null;
+  });
+};
+
+exports.onCreatePage = ({ page, actions }) => {
+  const { deletePage, createPage } = actions;
+
+  return new Promise(resolve => {
+    // if the page component is the index page component
+    if (page.componentPath === `${__dirname}/src/pages/Home/index.js`) {
+      deletePage(page);
+
+      // create a new page but with '/' as path
+      createPage({
+        ...page,
+        path: '/',
+      });
+    }
+
+    resolve();
   });
 };
 
