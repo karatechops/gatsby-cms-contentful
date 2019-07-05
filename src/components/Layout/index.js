@@ -4,7 +4,8 @@ import { grommet, Anchor, Grommet, Box, Text } from 'grommet';
 import { deepMerge } from 'grommet/utils';
 import { css } from 'styled-components';
 
-import Content from './content';
+import './reset.css';
+import Content from '../Content';
 
 const theme = deepMerge(
   {
