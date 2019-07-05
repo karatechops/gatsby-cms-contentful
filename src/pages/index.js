@@ -1,15 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
-import {
-  Box,
-  Heading,
-  Text,
-  /* Form,
-  FormField,
-  TextInput, */
-  Button,
-} from 'grommet';
+import { Box, Heading, Text, Button } from 'grommet';
 import {
   CloudUpload,
   Services,
@@ -134,16 +126,6 @@ class Home extends React.Component {
               <Button margin="medium" label="Sign Up" />
             </Box>
           </Box>
-          {/* <Box width="medium" round="small" background="light-1" pad="medium">
-            <Form>
-              <FormField label="Email Address">
-                <TextInput
-                  label="Email Address"
-                />
-              </FormField>
-              <Button margin="medium" label="submit" />
-            </Form>
-            </Box> */}
         </Content>
       </Layout>
     );
