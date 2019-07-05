@@ -16,7 +16,6 @@ import Hero from '../../components/Hero';
 
 class Home extends React.Component {
   render() {
-    console.log(this.props);
     const { data } = this.props;
     const { title, intro, heroBg, videos } = data.markdownRemark.frontmatter;
     const siteTitle = data.site.siteMetadata.title;
