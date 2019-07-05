@@ -2,17 +2,25 @@ import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
-import { Box, Heading, Text, Markdown, Paragraph } from 'grommet';
+import { Box, Heading, Text, Markdown, Paragraph, Image } from 'grommet';
 import { Content, Layout, SEO } from '../components';
 
 const components = {
   p: {
     component: Paragraph,
     props: {
+      size: 'xlarge',
       style: {
         maxWidth: '100%',
       },
     },
+  },
+  img: {
+    component: props => (
+      <Box width="large">
+        <Image {...props} />
+      </Box>
+    ),
   },
 };
 
