@@ -4,7 +4,7 @@ import { Anchor, Grommet, Box, Text } from 'grommet';
 
 import theme from './theme';
 import './reset.css';
-import Content from '../Content';
+import { Content, Header } from '../index';
 
 class Layout extends React.Component {
   render() {
@@ -22,6 +22,7 @@ class Layout extends React.Component {
           height: 'auto',
         }}
       >
+        <Header />
         <Box flex as="main">
           {children}
         </Box>
