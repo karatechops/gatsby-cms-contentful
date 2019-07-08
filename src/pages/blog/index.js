@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { graphql } from 'gatsby';
-// import { Box, Heading, Text, Button } from 'grommet';
+import { graphql, Link } from 'gatsby';
+import { Box, Heading, Paragraph, Button } from 'grommet';
 
 import { Content, Layout, SEO } from '../../components';
 
@@ -14,11 +14,26 @@ class Blog extends React.Component {
     return (
       <Layout title={siteTitle}>
         <SEO title="Blog" />
-        <Content pad={{ top: 'xlarge' }} align="center">
+        <Box background="brand">
+          <Content margin={{ vertical: 'large' }}>
+            <Heading size="xlarge" margin="none" style={{ lineHeight: 1 }}>
+              Blog
+            </Heading>
+          </Content>
+        </Box>
+        <Content pad={{ top: 'large' }} align="center" gap="large">
           {posts.map(
             ({ node }) =>
               node.fields.slug !== '/' && (
-                <div key={node.id}>{node.frontmatter.title}</div>
+                <Box key={node.id} gap="medium" width="100%" align="start">
+                  <Heading margin="none">{node.frontmatter.title}</Heading>
+                  <Box width="50%">
+                    <Paragraph margin="none">{node.excerpt}</Paragraph>
+                  </Box>
+                  <Link to={`/blog${node.fields.slug}`}>
+                    <Button label="Read more" />
+                  </Link>
+                </Box>
               ),
           )}
         </Content>
@@ -41,6 +56,7 @@ Blog.propTypes = {
             frontmatter: PropTypes.shape({
               title: PropTypes.string.isRequired,
             }).isRequired,
+            excerpt: PropTypes.string.isRequired,
           }).isRequired,
         }).isRequired,
       ).isRequired,
@@ -65,6 +81,7 @@ export const pageQuery = graphql`
           fields {
             slug
           }
+          excerpt
           frontmatter {
             title
             date

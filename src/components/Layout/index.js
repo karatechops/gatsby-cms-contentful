@@ -17,6 +17,7 @@ const theme = deepMerge(
     paragraph: {
       extend: css`
         font-weight: 100;
+        max-width: 100%;
       `,
     },
   },
