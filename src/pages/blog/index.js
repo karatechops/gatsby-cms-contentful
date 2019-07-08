@@ -4,13 +4,14 @@ import { graphql, Link } from 'gatsby';
 import { Box, Heading, Paragraph, Button } from 'grommet';
 
 import { Content, Layout, SEO } from '../../components';
+import { useSiteMetadata } from '../../hooks/use-site-metadata';
 
 class Blog extends React.Component {
   render() {
     const { data } = this.props;
     const posts = data.allMarkdownRemark.edges;
-    const siteTitle = data.site.siteMetadata.title;
-
+    const siteMetadata = useSiteMetadata();
+    const siteTitle = siteMetadata.title;
     return (
       <Layout title={siteTitle}>
         <SEO title="Blog" />
@@ -44,11 +45,6 @@ class Blog extends React.Component {
 
 Blog.propTypes = {
   data: PropTypes.shape({
-    site: PropTypes.shape({
-      siteMetadata: PropTypes.shape({
-        title: PropTypes.string.isRequired,
-      }).isRequired,
-    }).isRequired,
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.arrayOf(
         PropTypes.shape({
@@ -68,11 +64,6 @@ export default Blog;
 
 export const pageQuery = graphql`
   query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
     allMarkdownRemark {
       edges {
         node {

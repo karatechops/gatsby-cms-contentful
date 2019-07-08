@@ -5,7 +5,7 @@ import HomePage from '../index';
 
 // Data for SEO component
 beforeEach(() => {
-  useStaticQuery.mockReturnValueOnce({
+  useStaticQuery.mockReturnValue({
     site: {
       siteMetadata: {
         title: 'My site',

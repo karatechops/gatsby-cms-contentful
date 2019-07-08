@@ -1,15 +1,13 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import { graphql } from 'gatsby';
 import { Box, Heading, Paragraph } from 'grommet';
 import { Layout, SEO } from '../../components';
+import { useSiteMetadata } from '../../hooks/use-site-metadata';
 
 class NotFoundPage extends React.Component {
   render() {
-    const { data } = this.props;
-    const siteTitle = data.site.siteMetadata.title;
+    const siteMetadata = useSiteMetadata();
     return (
-      <Layout title={siteTitle}>
+      <Layout title={siteMetadata.siteTitle}>
         <Box flex align="center" justify="center">
           <SEO title="404: Not Found" />
           <Heading>Not Found</Heading>
@@ -22,24 +20,4 @@ class NotFoundPage extends React.Component {
   }
 }
 
-NotFoundPage.propTypes = {
-  data: PropTypes.shape({
-    site: PropTypes.shape({
-      siteMetadata: PropTypes.shape({
-        title: PropTypes.string.isRequired,
-      }).isRequired,
-    }).isRequired,
-  }).isRequired,
-};
-
 export default NotFoundPage;
-
-export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`;

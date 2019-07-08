@@ -4,7 +4,7 @@ import { useStaticQuery } from 'gatsby';
 import Seo from '../index';
 
 beforeEach(() => {
-  useStaticQuery.mockReturnValueOnce({
+  useStaticQuery.mockReturnValue({
     site: {
       siteMetadata: {
         title: 'My site',

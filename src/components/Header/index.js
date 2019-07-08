@@ -1,19 +1,10 @@
 import React from 'react';
-import { useStaticQuery, graphql, Link } from 'gatsby';
+import { Link } from 'gatsby';
 import { Box, Text } from 'grommet';
+import { useSiteMetadata } from '../../hooks/use-site-metadata';
 
 function Header() {
-  const { site } = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-          }
-        }
-      }
-    `,
-  );
+  const siteMetadata = useSiteMetadata();
 
   return (
     <Box
@@ -25,7 +16,7 @@ function Header() {
     >
       <Link to="/">
         <Text weight="bold" color="accent-1">
-          {(site.siteMetadata && site.siteMetadata.title) || 'Home'}
+          {(siteMetadata && siteMetadata.title) || 'Home'}
         </Text>
       </Link>
       <Link to="/blog">
