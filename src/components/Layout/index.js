@@ -1,28 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { grommet, Anchor, Grommet, Box, Text } from 'grommet';
-import { deepMerge } from 'grommet/utils';
-import { css } from 'styled-components';
+import { Anchor, Grommet, Box, Text } from 'grommet';
 
+import theme from './theme';
 import './reset.css';
 import Content from '../Content';
-
-const theme = deepMerge(
-  {
-    heading: {
-      extend: css`
-        font-weight: 100;
-      `,
-    },
-    paragraph: {
-      extend: css`
-        font-weight: 100;
-        max-width: 100%;
-      `,
-    },
-  },
-  grommet,
-);
 
 class Layout extends React.Component {
   render() {
