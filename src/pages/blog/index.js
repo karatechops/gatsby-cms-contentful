@@ -15,9 +15,12 @@ class Blog extends React.Component {
       <Layout title={siteTitle}>
         <SEO title="Blog" />
         <Content pad={{ top: 'xlarge' }} align="center">
-          {posts.map(({ node }) => (
-            <div key={node.id}>{node.frontmatter.title}</div>
-          ))}
+          {posts.map(
+            ({ node }) =>
+              node.fields.slug !== '/' && (
+                <div key={node.id}>{node.frontmatter.title}</div>
+              ),
+          )}
         </Content>
       </Layout>
     );
