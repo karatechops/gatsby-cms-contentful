@@ -52,7 +52,7 @@ exports[`NotFoundPage renders correctly 1`] = `
       <p
         className="StyledParagraph-tbetod-0 laepNS"
       >
-        You just hit a route that doesn't exist... the sadness.
+        This page doesn't exist... the sadness.
       </p>
     </div>
   </main>
