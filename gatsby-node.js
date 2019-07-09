@@ -34,19 +34,21 @@ exports.createPages = ({ graphql, actions }) => {
     const posts = result.data.allMarkdownRemark.edges;
 
     posts.forEach((post, index) => {
-      const previous =
-        index === posts.length - 1 ? null : posts[index + 1].node;
-      const next = index === 0 ? null : posts[index - 1].node;
+      if (post.slug !== '/') {
+        const previous =
+          index === posts.length - 1 ? null : posts[index + 1].node;
+        const next = index === 0 ? null : posts[index - 1].node;
 
-      createPage({
-        path: `/blog${post.node.fields.slug}`,
-        component: blogPost,
-        context: {
-          slug: post.node.fields.slug,
-          previous,
-          next,
-        },
-      });
+        createPage({
+          path: `/blog${post.node.fields.slug}`,
+          component: blogPost,
+          context: {
+            slug: post.node.fields.slug,
+            previous,
+            next,
+          },
+        });
+      }
     });
 
     return null;
@@ -60,7 +62,6 @@ exports.onCreatePage = ({ page, actions }) => {
     // if the page component is the index page component
     if (page.componentPath === `${__dirname}/src/pages/home/index.js`) {
       deletePage(page);
-
       // create a new page but with '/' as path
       createPage({
         ...page,
