@@ -23,6 +23,13 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `drvq61iw8jm2`,
+        accessToken: `jCPX91va0dheYX2_5U3d7B0Yswb1x4ftM4iZZku5B5s`,
+      },
+    },
+    {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/content/home.md`,

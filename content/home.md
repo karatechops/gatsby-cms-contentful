@@ -13,4 +13,3 @@ videos:
     title: Take A Closer Look
     url: 'https://www.youtube.com/watch?v=HwdCqHSOWUE'
 ---
-
