@@ -1,6 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { useStaticQuery } from 'gatsby';
+import 'jest-styled-components';
 import Header from '../index';
 
 beforeEach(() => {

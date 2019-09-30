@@ -1,26 +1,86 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Header renders correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  outline: none;
+  max-width: 100%;
+  margin: 0px;
+  background: #333333;
+  color: #f8f8f8;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.c2 {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: 12px;
+}
+
+.c1 {
+  font-size: 18px;
+  line-height: 24px;
+  color: #6FFFB0;
+  font-weight: bold;
+}
+
+@media only screen and (max-width:768px) {
+  .c0 {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c0 {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c0 {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+}
+
 <div
-  className="StyledBox-sc-13pk1d4-0 dOfRrV"
+  className="c0"
 >
   <a
     href="/"
   >
     <span
-      className="StyledText-sc-1sadyjn-0 dPfkAU"
+      className="c1"
     >
       My site
     </span>
   </a>
   <div
-    className="StyledBox__StyledBoxGap-sc-13pk1d4-1 iChEkS"
+    className="c2"
   />
   <a
     href="/blog"
   >
     <span
-      className="StyledText-sc-1sadyjn-0 dPfkAU"
+      className="c1"
     >
       Blog
     </span>

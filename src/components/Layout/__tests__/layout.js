@@ -1,6 +1,8 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { useStaticQuery } from 'gatsby';
+import 'jest-styled-components';
+
 import Layout from '../index';
 
 beforeEach(() => {

@@ -8,6 +8,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
+import 'jest-styled-components';
+
 import { useSiteMetadata } from '../../hooks/use-site-metadata';
 
 function SEO({ description, lang, meta, title }) {

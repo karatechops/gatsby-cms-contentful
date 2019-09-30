@@ -2,6 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { useStaticQuery } from 'gatsby';
 import NotFoundPage from '../index';
+import 'jest-styled-components';
 
 // Data for SEO component
 beforeEach(() => {

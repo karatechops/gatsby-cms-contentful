@@ -1,8 +1,1262 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`HomePage renders correctly 1`] = `
+.c20 {
+  display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: 48px;
+  height: 48px;
+  fill: #F8F8F8;
+  stroke: #F8F8F8;
+}
+
+.c20 g {
+  fill: inherit;
+  stroke: inherit;
+}
+
+.c20 *:not([stroke])[fill="none"] {
+  stroke-width: 0;
+}
+
+.c20 *[stroke*="#"],
+.c20 *[STROKE*="#"] {
+  stroke: inherit;
+  fill: none;
+}
+
+.c20 *[fill-rule],
+.c20 *[FILL-RULE],
+.c20 *[fill*="#"],
+.c20 *[FILL*="#"] {
+  fill: inherit;
+  stroke: none;
+}
+
+.c30 {
+  display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: 96px;
+  height: 96px;
+  fill: #F8F8F8;
+  stroke: #F8F8F8;
+}
+
+.c30 g {
+  fill: inherit;
+  stroke: inherit;
+}
+
+.c30 *:not([stroke])[fill="none"] {
+  stroke-width: 0;
+}
+
+.c30 *[stroke*="#"],
+.c30 *[STROKE*="#"] {
+  stroke: inherit;
+  fill: none;
+}
+
+.c30 *[fill-rule],
+.c30 *[FILL-RULE],
+.c30 *[fill*="#"],
+.c30 *[FILL*="#"] {
+  fill: inherit;
+  stroke: none;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  outline: none;
+  max-width: 100%;
+  margin: 0px;
+  background: #333333;
+  color: #f8f8f8;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  outline: none;
+  max-width: 100%;
+  margin: 0px;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
+  flex: 1 1;
+  padding: 0px;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  outline: none;
+  max-width: 100%;
+  margin: 0px;
+  background: url(/img/test.jpg) no-repeat center center;
+  background-size: cover;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 768px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 48px;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  outline: none;
+  max-width: 100%;
+  margin: 0px;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 768px;
+  padding: 0px;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  outline: none;
+  max-width: 100%;
+  margin: 0px;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 0px;
+}
+
+.c15 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  outline: none;
+  max-width: 100%;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  margin: 0px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 1536px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 96px;
+}
+
+.c17 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  outline: none;
+  max-width: 100%;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  margin: 0px;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 1536px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.c18 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  outline: none;
+  margin: 0px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-basis: 33.33%;
+  -ms-flex-preferred-size: 33.33%;
+  flex-basis: 33.33%;
+  padding-right: 12px;
+}
+
+.c19 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  outline: none;
+  max-width: 100%;
+  margin: 0px;
+  background: #7D4CDB;
+  color: #f8f8f8;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 24px;
+  border-radius: 100%;
+}
+
+.c23 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  outline: none;
+  margin: 0px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-basis: 33.33%;
+  -ms-flex-preferred-size: 33.33%;
+  flex-basis: 33.33%;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.c24 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  outline: none;
+  margin: 0px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-basis: 33.33%;
+  -ms-flex-preferred-size: 33.33%;
+  flex-basis: 33.33%;
+  padding-left: 12px;
+}
+
+.c25 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  outline: none;
+  max-width: 100%;
+  margin: 0px;
+  background: #F2F2F2;
+  color: #444444;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 0px;
+}
+
+.c26 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  outline: none;
+  max-width: 100%;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  margin: 0px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 1536px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.c27 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  outline: none;
+  max-width: 100%;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  margin: 0px;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 1536px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 96px;
+}
+
+.c28 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  outline: none;
+  margin: 0px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: url(/img/video-thumb-01.jpg) #333 no-repeat center center;
+  background-size: cover;
+  border: solid 2px #7D4CDB;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 384px;
+  -webkit-flex-basis: 50%;
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0px;
+}
+
+.c29 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  outline: none;
+  max-width: 100%;
+  margin: 0px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
+  flex: 1 1;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0px;
+}
+
+.c31 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  outline: none;
+  max-width: 100%;
+  margin: 0px;
+  background: rgba(0,0,0,0.4);
+  color: #f8f8f8;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  padding: 12px;
+}
+
+.c34 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  outline: none;
+  margin: 0px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: url(/img/video-thumb-02.jpg) #333 no-repeat center center;
+  background-size: cover;
+  border: solid 2px #7D4CDB;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 384px;
+  -webkit-flex-basis: 50%;
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0px;
+}
+
+.c35 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  outline: none;
+  max-width: 100%;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  margin: 0px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 1536px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.c36 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  outline: none;
+  max-width: 100%;
+  margin: 0px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 96px;
+}
+
+.c40 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  outline: none;
+  max-width: 100%;
+  margin: 0px;
+  background: #333333;
+  color: #f8f8f8;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.c41 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  outline: none;
+  max-width: 100%;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  margin: 0px;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 1536px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.c3 {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: 12px;
+}
+
+.c8 {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  height: 24px;
+}
+
+.c33 {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: 12px;
+}
+
+.c11 {
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer;
+  outline: none;
+  font: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  margin: 0;
+  background: transparent;
+  overflow: visible;
+  text-transform: none;
+  border: 2px solid #7D4CDB;
+  border-radius: 18px;
+  color: #444444;
+  padding: 4px 22px;
+  font-size: 18px;
+  line-height: 24px;
+  background: #7D4CDB;
+  color: #f8f8f8;
+  border-radius: 18px;
+  -webkit-transition-property: color, background-color, border-color, box-shadow;
+  transition-property: color, background-color, border-color, box-shadow;
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  font-weight: bold;
+}
+
+.c11:hover {
+  box-shadow: 0px 0px 0px 2px #7D4CDB;
+}
+
+.c13 {
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer;
+  outline: none;
+  font: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  margin: 0;
+  background: transparent;
+  overflow: visible;
+  text-transform: none;
+  border: 2px solid #7D4CDB;
+  border-radius: 18px;
+  color: #444444;
+  padding: 4px 22px;
+  font-size: 18px;
+  line-height: 24px;
+  -webkit-transition-property: color, background-color, border-color, box-shadow;
+  transition-property: color, background-color, border-color, box-shadow;
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  font-weight: bold;
+}
+
+.c13:hover {
+  box-shadow: 0px 0px 0px 2px #7D4CDB;
+}
+
+.c39 {
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer;
+  outline: none;
+  font: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  margin: 0;
+  background: transparent;
+  overflow: visible;
+  text-transform: none;
+  margin: 24px;
+  border: 2px solid #7D4CDB;
+  border-radius: 18px;
+  color: #444444;
+  padding: 4px 22px;
+  font-size: 18px;
+  line-height: 24px;
+  -webkit-transition-property: color, background-color, border-color, box-shadow;
+  transition-property: color, background-color, border-color, box-shadow;
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  font-weight: bold;
+}
+
+.c39:hover {
+  box-shadow: 0px 0px 0px 2px #7D4CDB;
+}
+
+.c7 {
+  margin: 0px;
+  font-size: 82px;
+  line-height: 88px;
+  max-width: 1968px;
+  font-weight: 600;
+  color: #FFFFFF;
+  font-weight: 100;
+}
+
+.c16 {
+  margin: 0px;
+  font-size: 82px;
+  line-height: 88px;
+  max-width: 1968px;
+  font-weight: 600;
+  font-weight: 100;
+}
+
+.c21 {
+  margin: 0px;
+  font-size: 50px;
+  line-height: 56px;
+  max-width: 1200px;
+  font-weight: 600;
+  text-align: center;
+  font-weight: 100;
+}
+
+.c37 {
+  margin: 0px;
+  font-size: 82px;
+  line-height: 88px;
+  max-width: 1968px;
+  font-weight: 600;
+  text-align: center;
+  font-weight: 100;
+}
+
+.c43 {
+  box-sizing: border-box;
+  font-size: inherit;
+  line-height: inherit;
+  color: #6FFFB0;
+  font-weight: 600;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.c43:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c2 {
+  font-size: 18px;
+  line-height: 24px;
+  color: #6FFFB0;
+  font-weight: bold;
+}
+
+.c9 {
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.c12 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.c14 {
+  font-size: 18px;
+  line-height: 24px;
+  color: #F8F8F8;
+  font-weight: bold;
+}
+
+.c22 {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.c32 {
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  color: #F8F8F8;
+  font-weight: 300;
+}
+
+.c38 {
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  font-weight: 100;
+}
+
+.c42 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.c0 {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 18px;
+  line-height: 24px;
+  background: #ffffff;
+  color: #444444;
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+}
+
+@media only screen and (max-width:768px) {
+  .c1 {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c1 {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c1 {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c4 {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c4 {
+    padding: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c5 {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c5 {
+    padding: 24px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c6 {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c6 {
+    padding: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c10 {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c10 {
+    padding: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c15 {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c15 {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c15 {
+    padding-top: 48px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c17 {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c17 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-basis: auto;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-items: stretch;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c17 {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c17 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c18 {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c18 {
+    padding-right: 6px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c19 {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c19 {
+    padding: 12px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c23 {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c23 {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c24 {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c24 {
+    padding-left: 6px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c25 {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c25 {
+    padding: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c26 {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c26 {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c26 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c27 {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c27 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-basis: auto;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-items: stretch;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c27 {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c27 {
+    padding-bottom: 48px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c28 {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c28 {
+    border: solid 2px #7D4CDB;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c28 {
+    padding: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c29 {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c29 {
+    padding: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c31 {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c31 {
+    padding: 6px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c34 {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c34 {
+    border: solid 2px #7D4CDB;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c34 {
+    padding: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c35 {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c35 {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c36 {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c36 {
+    padding: 48px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c40 {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c40 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c41 {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c41 {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c8 {
+    height: 12px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c33 {
+    width: auto;
+    height: 6px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c7 {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c7 {
+    font-size: 50px;
+    line-height: 56px;
+    max-width: 1200px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c16 {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c16 {
+    font-size: 50px;
+    line-height: 56px;
+    max-width: 1200px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c21 {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c21 {
+    font-size: 34px;
+    line-height: 40px;
+    max-width: 816px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c37 {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c37 {
+    font-size: 50px;
+    line-height: 56px;
+    max-width: 1200px;
+  }
+}
+
 <div
-  className="StyledGrommet-sc-19lkkz7-0 cqQlmF"
+  className="c0"
   style={
     Object {
       "display": "flex",
@@ -14,61 +1268,61 @@ exports[`HomePage renders correctly 1`] = `
   }
 >
   <div
-    className="StyledBox-sc-13pk1d4-0 dOfRrV"
+    className="c1"
   >
     <a
       href="/"
     >
       <span
-        className="StyledText-sc-1sadyjn-0 dPfkAU"
+        className="c2"
       >
         My site
       </span>
     </a>
     <div
-      className="StyledBox__StyledBoxGap-sc-13pk1d4-1 iChEkS"
+      className="c3"
     />
     <a
       href="/blog"
     >
       <span
-        className="StyledText-sc-1sadyjn-0 dPfkAU"
+        className="c2"
       >
         Blog
       </span>
     </a>
   </div>
   <main
-    className="StyledBox-sc-13pk1d4-0 gYrpnw"
+    className="c4"
   >
     <div
-      className="StyledBox-sc-13pk1d4-0 bBfQzQ"
+      className="c5"
     >
       <div
-        className="StyledBox-sc-13pk1d4-0 iaNxlk"
+        className="c6"
       >
         <h1
-          className="StyledHeading-sc-1rdh4aw-0 gUQWrt"
+          className="c7"
           size="large"
         >
           Our Coolest Product
         </h1>
         <div
-          className="StyledBox__StyledBoxGap-sc-13pk1d4-1 irlfVP"
+          className="c8"
         />
         <span
-          className="StyledText-sc-1sadyjn-0 brldlG"
+          className="c9"
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra sodales urna, eget finibus orci rutrum non. Vivamus blandit, erat vel condimentum dapibus.
         </span>
         <div
-          className="StyledBox__StyledBoxGap-sc-13pk1d4-1 irlfVP"
+          className="c8"
         />
         <div
-          className="StyledBox-sc-13pk1d4-0 ffeAql"
+          className="c10"
         >
           <button
-            className="StyledButton-sc-323bzc-0 dEplip"
+            className="c11"
             onBlur={[Function]}
             onFocus={[Function]}
             onMouseOut={[Function]}
@@ -76,16 +1330,16 @@ exports[`HomePage renders correctly 1`] = `
             type="button"
           >
             <span
-              className="StyledText-sc-1sadyjn-0 bnqisW"
+              className="c12"
             >
               Learn more
             </span>
           </button>
           <div
-            className="StyledBox__StyledBoxGap-sc-13pk1d4-1 iChEkS"
+            className="c3"
           />
           <button
-            className="StyledButton-sc-323bzc-0 gcyyIl"
+            className="c13"
             onBlur={[Function]}
             onClick={[Function]}
             onFocus={[Function]}
@@ -94,7 +1348,7 @@ exports[`HomePage renders correctly 1`] = `
             type="button"
           >
             <span
-              className="StyledText-sc-1sadyjn-0 bLEHmJ"
+              className="c14"
             >
               Login
             </span>
@@ -103,27 +1357,27 @@ exports[`HomePage renders correctly 1`] = `
       </div>
     </div>
     <div
-      className="StyledBox-sc-13pk1d4-0 cKZvad"
+      className="c15"
     >
       <h1
-        className="StyledHeading-sc-1rdh4aw-0 hHNPHI"
+        className="c16"
         size="large"
       >
         An Amazing Cloud Experience
       </h1>
     </div>
     <div
-      className="StyledBox-sc-13pk1d4-0 hdEICp"
+      className="c17"
     >
       <div
-        className="StyledBox-sc-13pk1d4-0 chRJRB"
+        className="c18"
       >
         <div
-          className="StyledBox-sc-13pk1d4-0 kGlKjX"
+          className="c19"
         >
           <svg
             aria-label="CloudUpload"
-            className="StyledIcon-ofa7kd-0 efHRah"
+            className="c20"
             viewBox="0 0 24 24"
           >
             <path
@@ -135,31 +1389,31 @@ exports[`HomePage renders correctly 1`] = `
           </svg>
         </div>
         <div
-          className="StyledBox__StyledBoxGap-sc-13pk1d4-1 irlfVP"
+          className="c8"
         />
         <h1
-          className="StyledHeading-sc-1rdh4aw-0 kwWPxX"
+          className="c21"
         >
           Persistance
         </h1>
         <div
-          className="StyledBox__StyledBoxGap-sc-13pk1d4-1 irlfVP"
+          className="c8"
         />
         <span
-          className="StyledText-sc-1sadyjn-0 dmvzzC"
+          className="c22"
         >
           Activated charcoal chambray, hoodie mlkshk glossier church-key green juice air plant letterpress shaman banjo keytar kinfolk.
         </span>
       </div>
       <div
-        className="StyledBox-sc-13pk1d4-0 hnZkeE"
+        className="c23"
       >
         <div
-          className="StyledBox-sc-13pk1d4-0 kGlKjX"
+          className="c19"
         >
           <svg
             aria-label="ServerCluster"
-            className="StyledIcon-ofa7kd-0 efHRah"
+            className="c20"
             viewBox="0 0 24 24"
           >
             <path
@@ -171,31 +1425,31 @@ exports[`HomePage renders correctly 1`] = `
           </svg>
         </div>
         <div
-          className="StyledBox__StyledBoxGap-sc-13pk1d4-1 irlfVP"
+          className="c8"
         />
         <h1
-          className="StyledHeading-sc-1rdh4aw-0 kwWPxX"
+          className="c21"
         >
           Reliability
         </h1>
         <div
-          className="StyledBox__StyledBoxGap-sc-13pk1d4-1 irlfVP"
+          className="c8"
         />
         <span
-          className="StyledText-sc-1sadyjn-0 dmvzzC"
+          className="c22"
         >
           Flannel austin ethical, fanny pack ugh photo booth marfa dreamcatcher direct trade lyft.
         </span>
       </div>
       <div
-        className="StyledBox-sc-13pk1d4-0 dJOdpm"
+        className="c24"
       >
         <div
-          className="StyledBox-sc-13pk1d4-0 kGlKjX"
+          className="c19"
         >
           <svg
             aria-label="Services"
-            className="StyledIcon-ofa7kd-0 efHRah"
+            className="c20"
             viewBox="0 0 24 24"
           >
             <path
@@ -207,48 +1461,48 @@ exports[`HomePage renders correctly 1`] = `
           </svg>
         </div>
         <div
-          className="StyledBox__StyledBoxGap-sc-13pk1d4-1 irlfVP"
+          className="c8"
         />
         <h1
-          className="StyledHeading-sc-1rdh4aw-0 kwWPxX"
+          className="c21"
         >
           Cloud Backup
         </h1>
         <div
-          className="StyledBox__StyledBoxGap-sc-13pk1d4-1 irlfVP"
+          className="c8"
         />
         <span
-          className="StyledText-sc-1sadyjn-0 dmvzzC"
+          className="c22"
         >
           Biodiesel hashtag palo santo unicorn synth vinyl af raw denim kitsch ugh shoreditch quinoa la croix bespoke.
         </span>
       </div>
     </div>
     <div
-      className="StyledBox-sc-13pk1d4-0 imQOMg"
+      className="c25"
     >
       <div
-        className="StyledBox-sc-13pk1d4-0 ksNQYm"
+        className="c26"
       >
         <h1
-          className="StyledHeading-sc-1rdh4aw-0 hHNPHI"
+          className="c16"
           size="large"
         >
           Learn More with Videos
         </h1>
       </div>
       <div
-        className="StyledBox-sc-13pk1d4-0 ldmEVE"
+        className="c27"
       >
         <div
-          className="StyledBox-sc-13pk1d4-0 lnnCY"
+          className="c28"
         >
           <div
-            className="StyledBox-sc-13pk1d4-0 QIaXS"
+            className="c29"
           >
             <svg
               aria-label="CirclePlay"
-              className="StyledIcon-ofa7kd-0 cNBvFk"
+              className="c30"
               viewBox="0 0 24 24"
             >
               <path
@@ -260,10 +1514,10 @@ exports[`HomePage renders correctly 1`] = `
             </svg>
           </div>
           <div
-            className="StyledBox-sc-13pk1d4-0 iFQNp"
+            className="c31"
           >
             <span
-              className="StyledText-sc-1sadyjn-0 fMbRNm"
+              className="c32"
               size="large"
             >
               Learn About Things
@@ -271,17 +1525,17 @@ exports[`HomePage renders correctly 1`] = `
           </div>
         </div>
         <div
-          className="StyledBox__StyledBoxGap-sc-13pk1d4-1 cdvXba"
+          className="c33"
         />
         <div
-          className="StyledBox-sc-13pk1d4-0 iBocPw"
+          className="c34"
         >
           <div
-            className="StyledBox-sc-13pk1d4-0 QIaXS"
+            className="c29"
           >
             <svg
               aria-label="CirclePlay"
-              className="StyledIcon-ofa7kd-0 cNBvFk"
+              className="c30"
               viewBox="0 0 24 24"
             >
               <path
@@ -293,10 +1547,10 @@ exports[`HomePage renders correctly 1`] = `
             </svg>
           </div>
           <div
-            className="StyledBox-sc-13pk1d4-0 iFQNp"
+            className="c31"
           >
             <span
-              className="StyledText-sc-1sadyjn-0 fMbRNm"
+              className="c32"
               size="large"
             >
               Learn About Things 2
@@ -306,28 +1560,28 @@ exports[`HomePage renders correctly 1`] = `
       </div>
     </div>
     <div
-      className="StyledBox-sc-13pk1d4-0 ggephV"
+      className="c35"
     >
       <div
-        className="StyledBox-sc-13pk1d4-0 gmvHmr"
+        className="c36"
       >
         <h1
-          className="StyledHeading-sc-1rdh4aw-0 ijAJIB"
+          className="c37"
           size="large"
         >
           Get Started Today
         </h1>
         <span
-          className="StyledText-sc-1sadyjn-0 cdCnev"
+          className="c38"
           size="xlarge"
         >
           Photo booth marvel dreamcatcher direct trade lyft.
         </span>
         <div
-          className="StyledBox-sc-13pk1d4-0 ffeAql"
+          className="c10"
         >
           <button
-            className="StyledButton-sc-323bzc-0 dkEQUy"
+            className="c39"
             onBlur={[Function]}
             onFocus={[Function]}
             onMouseOut={[Function]}
@@ -341,20 +1595,20 @@ exports[`HomePage renders correctly 1`] = `
     </div>
   </main>
   <footer
-    className="StyledBox-sc-13pk1d4-0 cJOxqP"
+    className="c40"
   >
     <div
-      className="StyledBox-sc-13pk1d4-0 ldwCNw"
+      className="c41"
     >
       <span
-        className="StyledText-sc-1sadyjn-0 fWSbXS"
+        className="c42"
       >
         © 
         2019
         , Built with
          
         <a
-          className="StyledAnchor-sc-1rp7lwl-0 llbwuF"
+          className="c43"
           href="https://grommet.io"
           onBlur={[Function]}
           onFocus={[Function]}

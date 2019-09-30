@@ -1,8 +1,274 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`NotFoundPage renders correctly 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  outline: none;
+  max-width: 100%;
+  margin: 0px;
+  background: #333333;
+  color: #f8f8f8;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  outline: none;
+  max-width: 100%;
+  margin: 0px;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
+  flex: 1 1;
+  padding: 0px;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  outline: none;
+  max-width: 100%;
+  margin: 0px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
+  flex: 1 1;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0px;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  outline: none;
+  max-width: 100%;
+  margin: 0px;
+  background: #333333;
+  color: #f8f8f8;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  outline: none;
+  max-width: 100%;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  margin: 0px;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 1536px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.c3 {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: 12px;
+}
+
+.c6 {
+  font-size: 50px;
+  line-height: 56px;
+  max-width: 1200px;
+  font-weight: 600;
+  font-weight: 100;
+}
+
+.c11 {
+  box-sizing: border-box;
+  font-size: inherit;
+  line-height: inherit;
+  color: #6FFFB0;
+  font-weight: 600;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.c11:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c2 {
+  font-size: 18px;
+  line-height: 24px;
+  color: #6FFFB0;
+  font-weight: bold;
+}
+
+.c10 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.c0 {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 18px;
+  line-height: 24px;
+  background: #ffffff;
+  color: #444444;
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+}
+
+.c7 {
+  font-size: 18px;
+  line-height: 24px;
+  max-width: 432px;
+  font-weight: 100;
+  max-width: 100%;
+}
+
+@media only screen and (max-width:768px) {
+  .c1 {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c1 {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c1 {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c4 {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c4 {
+    padding: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c5 {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c5 {
+    padding: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c8 {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c8 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c9 {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c9 {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c6 {
+    font-size: 34px;
+    line-height: 40px;
+    max-width: 816px;
+  }
+}
+
 <div
-  className="StyledGrommet-sc-19lkkz7-0 cqQlmF"
+  className="c0"
   style={
     Object {
       "display": "flex",
@@ -14,63 +280,63 @@ exports[`NotFoundPage renders correctly 1`] = `
   }
 >
   <div
-    className="StyledBox-sc-13pk1d4-0 dOfRrV"
+    className="c1"
   >
     <a
       href="/"
     >
       <span
-        className="StyledText-sc-1sadyjn-0 dPfkAU"
+        className="c2"
       >
         My site
       </span>
     </a>
     <div
-      className="StyledBox__StyledBoxGap-sc-13pk1d4-1 iChEkS"
+      className="c3"
     />
     <a
       href="/blog"
     >
       <span
-        className="StyledText-sc-1sadyjn-0 dPfkAU"
+        className="c2"
       >
         Blog
       </span>
     </a>
   </div>
   <main
-    className="StyledBox-sc-13pk1d4-0 gYrpnw"
+    className="c4"
   >
     <div
-      className="StyledBox-sc-13pk1d4-0 QIaXS"
+      className="c5"
     >
       <h1
-        className="StyledHeading-sc-1rdh4aw-0 jowXmd"
+        className="c6"
       >
         Not Found
       </h1>
       <p
-        className="StyledParagraph-tbetod-0 laepNS"
+        className="c7"
       >
         This page doesn't exist... the sadness.
       </p>
     </div>
   </main>
   <footer
-    className="StyledBox-sc-13pk1d4-0 cJOxqP"
+    className="c8"
   >
     <div
-      className="StyledBox-sc-13pk1d4-0 ldwCNw"
+      className="c9"
     >
       <span
-        className="StyledText-sc-1sadyjn-0 fWSbXS"
+        className="c10"
       >
         © 
         2019
         , Built with
          
         <a
-          className="StyledAnchor-sc-1rp7lwl-0 llbwuF"
+          className="c11"
           href="https://grommet.io"
           onBlur={[Function]}
           onFocus={[Function]}
