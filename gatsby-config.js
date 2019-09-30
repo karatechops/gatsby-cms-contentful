@@ -13,9 +13,6 @@ module.exports = {
       resolve: 'gatsby-plugin-styled-components',
     },
     {
-      resolve: 'gatsby-plugin-netlify-cms',
-    },
-    {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/content/blog`,
